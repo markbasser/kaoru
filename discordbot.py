@@ -38,7 +38,7 @@ async def loop():
     
     if now == '01:28':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('🥳🎶')     
+        await channel.send('🥳<:yeah1:721319707482914877> ')     
 
     if now == '01:29':
         channel = client.get_channel(CHANNEL_ID)
@@ -80,9 +80,9 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳')
         
-    if now == '05:15':
+    if now == '05:16':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりとしましょうね💚 \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
+        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりと相手に伝えましょうね💜 \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
 
     if now == '07:47':
         channel = client.get_channel(CHANNEL_ID)
@@ -108,9 +108,9 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:goodfriend:731381691192574022>') 
         
-    if now == '10:55':
+    if now == '10:56':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりとしましょうね💚<:goodfriend:731381691192574022>  \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛<:goodfriend:731381691192574022>  ') 
+        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりと伝えましょうね💚<:goodfriend:731381691192574022>  \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛<:goodfriend:731381691192574022>  ') 
 
     if now == '12:00':
         channel = client.get_channel(CHANNEL_ID)
@@ -130,7 +130,7 @@ async def loop():
             
     if now == '12:55':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community💜\n Pls receive→/catch')
+        await channel.send('Let,s say **Hello** and **Thank you!** in the JPX <:jpxdis1:710400520434745425> community💜\n Pls receive?→/catch')
     
     if now == '13:55':
         channel = client.get_channel(CHANNEL_ID)
@@ -140,9 +140,9 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳<:goodfriend:731381691192574022>')
         
-    if now == '18:42':
+    if now == '18:43':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:kaoru:712646431957319770>JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりとしましょうね💚 \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
+        await channel.send('<:kaoru:712646431957319770>JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりと伝えましょうね💚 \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
    
     if now == '21:56':
         channel = client.get_channel(CHANNEL_ID)
@@ -158,13 +158,13 @@ async def on_message(message):
         return
 
         
-    if message.content == "<:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117>":
+    if message.content == "<:otsukare:722438703410053160> <:otsukare:722438703410053160> <:otsukare:722438703410053160>":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"<:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"<:otsukare:722438703410053160> <:tyvm:723702293706440765> <:otsukare:722438703410053160>")  # f文字列（フォーマット済み文字列リテラル）
     
-    if message.content == "<:ty:699857337980026930><:hai_kao:699072592987947117>":
+    if message.content == "<:yeah1:721319707482914877> <:yeah1:721319707482914877>":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"<:ty:699857337980026930><:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"<:heart_gal:723894380301123614> <:goodfriend:731381691192574022>")  # f文字列（フォーマット済み文字列リテラル）
     
     elif message.content == "r/link":
         # リアクションアイコンを付けたい
