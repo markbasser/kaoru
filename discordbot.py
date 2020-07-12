@@ -58,7 +58,7 @@ async def loop():
     
     if now == '03:08':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:ty01:721642675274776618> 💦みんな仲良くちゃんと挨拶してよね💛\nEveryone, please speak with your greetings and thanks. Otherwise I will kick～lol💛')
+        await channel.send('<:ty01:721642675274776618> 💦みんな仲良くちゃんと挨拶してよね💛\n Everyone, please speak with your greetings and thanks. Otherwise I will kick～lol💛')
     
     if now == '03:33':
         channel = client.get_channel(CHANNEL_ID)
