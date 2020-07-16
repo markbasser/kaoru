@@ -42,7 +42,7 @@ async def loop():
 
     if now == '01:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('@everyone <:heart02:699580174911668225>are you ready Okay')     
+        await channel.send('@everyone <:heart_gal:723894380301123614> これから少し🍬⛈はじまりますよ /n 💜準備はいいですか💜')     
 
     if now == '02:20':
         channel = client.get_channel(CHANNEL_ID)
@@ -58,7 +58,7 @@ async def loop():
     
     if now == '03:08':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:ty01:721642675274776618> 💦みんな仲良くちゃんと挨拶してよね💛\n Everyone, please speak with your greetings and thanks. Otherwise I will kick～lol💛')
+        await channel.send('<:ty01:721642675274776618> 💦みんな仲良くちゃんと挨拶してよね💛\n Everyone, please speak with your greetings and thanks. \n @here Otherwise I will kick～lol <:heart_gal:723894380301123614> 💛')
     
     if now == '03:33':
         channel = client.get_channel(CHANNEL_ID)
