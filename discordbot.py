@@ -156,13 +156,61 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳<:goodfriend:731381691192574022>')
         
+    if now == '14:34':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/rain BEN 0.1 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
+    
+    if now == '14:39':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/throw BGPT 200 25 EquallyDistributed  <:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch') 
+            
+    if now == '14:38':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('/throw JPYN 100 25 AttenuationDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
+    
+    if now == '14:43':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('🥳')
+        
     if now == '14:45':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://cdn.discordapp.com/attachments/727510173039460382/747662891057938493/attention.png') 
         
     if now == '14:46':
         channel = client.get_channel(741553045481062461)
-        await channel.send('https://cdn.discordapp.com/attachments/727510173039460382/747662891057938493/attention.png') 
+        await channel.send('@everyone \n https://cdn.discordapp.com/attachments/727510173039460382/747662891057938493/attention.png') 
+        
+    if now == '15:00':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/rain BEN 0.1 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
+    
+    if now == '15:02':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/throw BGPT 200 25 EquallyDistributed  <:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch') 
+            
+    if now == '15:04':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/throw JPYN 100 25 AttenuationDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
+    
+    if now == '15:06':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('<:nicewave:741982210630090763> <:nicewave:741982210630090763> <:nicewave:741982210630090763>')
+    
+    if now == '16:00':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/rain BEN 0.1 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
+    
+    if now == '16:02':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/throw BGPT 200 25 EquallyDistributed  <:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch') 
+            
+    if now == '16:04':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/throw JPYN 100 25 AttenuationDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
+    
+    if now == '16:06':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('<:nicewave:741982210630090763> <:nicewave:741982210630090763> <:nicewave:741982210630090763>')  
         
     if now == '18:43':
         channel = client.get_channel(CHANNEL_ID)
@@ -185,6 +233,10 @@ async def on_message(message):
     if message.content == "<:otsukare:722438703410053160> <:otsukare:722438703410053160> <:otsukare:722438703410053160>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"<:otsukare:722438703410053160> <:tyvm:723702293706440765> <:otsukare:722438703410053160>")  # f文字列（フォーマット済み文字列リテラル）
+    
+    if message.content == "<:nicewave:746273079457611776> <:nicewave:746273079457611776> <:nicewave:746273079457611776>":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:nicewave:746273079457611776> <:yeah1:721319707482914877> <:nicewave:746273079457611776>")  # f文字列（フォーマット済み文字列リテラル）
     
     if message.content == "<:yeah1:721319707482914877> <:yeah1:721319707482914877>":
         # チャンネルへメッセージを送信
