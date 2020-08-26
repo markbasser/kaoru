@@ -104,6 +104,26 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:goodluck:724101036255608852>')
         
+    if now == '07:59':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('@everyone \n https://cdn.discordapp.com/attachments/727510173039460382/747662891057938493/attention.png') 
+        
+    if now == '08:00':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/rain BEN 2 20 EquallyDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
+    
+    if now == '08:02':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/throw BGPT 200 20 EquallyDistributed  <:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch') 
+            
+    if now == '08:04':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/throw JPYN 100 20 EquallyDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
+    
+    if now == '08:06':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('<:nicewave:741982210630090763> <:nicewave:741982210630090763> <:nicewave:741982210630090763>')
+        
     if now == '08:10':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:aloha:699581550777597992>Hello,how are you❓ ') 
@@ -119,6 +139,10 @@ async def loop():
     if now == '10:37':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('/throw BEN 0.1 15 EquallyDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>⚾Plz receive→/catch')
+        
+    if now == '10:38':
+        channel = client.get_channel(741553045481062461)
+        await channel.send('/throw JPYN 50 10 AttenuationDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch') 
     
     if now == '10:45':
         channel = client.get_channel(CHANNEL_ID)
@@ -182,15 +206,15 @@ async def loop():
         
     if now == '15:00':
         channel = client.get_channel(741553045481062461)
-        await channel.send('/rain BEN 0.1 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
+        await channel.send('/rain BEN 0.1   <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
     
     if now == '15:02':
         channel = client.get_channel(741553045481062461)
-        await channel.send('/throw BGPT 200 25 EquallyDistributed  <:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch') 
+        await channel.send('/throw BGPT 200 22 EquallyDistributed  <:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch') 
             
     if now == '15:04':
         channel = client.get_channel(741553045481062461)
-        await channel.send('/throw JPYN 100 25 AttenuationDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
+        await channel.send('/throw JPYN 100 22 EquallyDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
     
     if now == '15:06':
         channel = client.get_channel(741553045481062461)
@@ -198,7 +222,7 @@ async def loop():
     
     if now == '16:00':
         channel = client.get_channel(741553045481062461)
-        await channel.send('/rain BEN 0.1 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
+        await channel.send('/rain BEN 2 25 EquallyDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
     
     if now == '16:02':
         channel = client.get_channel(741553045481062461)
@@ -206,7 +230,7 @@ async def loop():
             
     if now == '16:04':
         channel = client.get_channel(741553045481062461)
-        await channel.send('/throw JPYN 100 25 AttenuationDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
+        await channel.send('/throw JPYN 50 10 AttenuationDistributed  <:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168><:JPYNdisco:698471276498649168>Pls receive→/catch')
     
     if now == '16:06':
         channel = client.get_channel(741553045481062461)
